@@ -1,10 +1,11 @@
 import React from 'react';
 import { Nav, Navbar, Form , FormControl, Button} from 'react-bootstrap'
+import '../assets/css/header.css'
 
 function Cabezera() {
     return (
         <div>
-            <Navbar bg="dark" variant="dark">
+            <Navbar className="header">
                 <Navbar.Brand href="#home">Kiraw</Navbar.Brand>
                 <Nav className="mr-auto">
                     <Nav.Link href="#home">Home</Nav.Link>
